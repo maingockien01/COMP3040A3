@@ -1,5 +1,5 @@
 # Group 7 A3
-**Members** 
+## Group Members
 * Akshay Sharma
 * Kien Mai
 * Haseeb Paracha
@@ -7,4 +7,4 @@
 * Zhijie Zheng
 ## Description
 ## Resources
-## Group Members
+
