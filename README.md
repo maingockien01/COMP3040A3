@@ -3,17 +3,22 @@
 - Topic: an API that provides a list of upcoming concerts in Manitoba.
 
 
-## Endpoints
+## Endpoint(s)
 
 `GET /concerts`
 
-list all concerts in a specific time range and city
+List all concerts in Manitoba given time range, city name and participating artisits.
 
-parameters
-- start_date (optional)
-- end_date (optional)
-- city_name (optional)
-- artist (optional)
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| start_date | string | NO | start date of time range |
+| end_date | string | NO | end date of time range |
+| city_name | string | NO | city name to base search on |
+| artist | string | NO | artist participates in concerts |
+
+If no parameter is specified in a request, as default, the api will return a respond that lists all upcoming concerts in Manitoba in 1 year from today.
 
 ## Sample Request
 ```
