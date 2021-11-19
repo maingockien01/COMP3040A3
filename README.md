@@ -34,12 +34,10 @@ https://api.concertMB.ca/concerts?
 ```
 ## Sample Response
 
-The response is formatted using JSON.
+The response is formatted using JSON. An example:
 
 ## Resources
 
-[SongKick](https://www.songkick.com/developer/upcoming-events-for-metro-area)  
-This API finds out upcoming events in a specific metro area. A metro area is a city or a group of cities used by Songkick to alert users to concerts in their region.
 
 ## Group Members
 
