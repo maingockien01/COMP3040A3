@@ -34,7 +34,7 @@ https://api.concertMB.ca/concerts?
 ```
 ## Sample Response
 
-The result data is formatted using JSON. An example:
+The response is formatted using JSON. An example:
 
 ## Resources
 
