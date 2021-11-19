@@ -1,4 +1,4 @@
-# Group 7 A3
+# Upcoming Concerts in Manitoba
 ## API Description
 - Topic: an API that provides a list of upcoming concerts in Manitoba.
 
