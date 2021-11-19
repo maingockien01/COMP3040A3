@@ -34,6 +34,8 @@ https://api.concertMB.ca/concerts?
 ```
 ## Sample Response
 
+The result data is formatted using JSON. An example:
+
 ## Resources
 
 [SongKick](https://www.songkick.com/developer/upcoming-events-for-metro-area)  
