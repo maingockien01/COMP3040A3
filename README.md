@@ -73,13 +73,18 @@ Response code: `500`
 
 ## Resources
 
-The request is formatted as the above example where the parameters must be given followed by "//api/concerts?", the first parameters are start_date and end_date that must be formatted as \<dd-mm-yyyy\>, followed by the city name and artist name.  
+The request is formatted as the above example where the parameters must be given followed by "//api/concerts?", the first parameters are start_date and end_date that must be formatted as \<dd-mm-yyyy\>, followed by the city name and artist name. 
+**Responce code 200** reponds to a successful call to the API   
 The response is formatted as JSON where the information is displayed in the order:  
 * `artists`: The artist name as a string
 * `venueName`: The venue name as a string
 * `date`: A string that represensts the date in the format \<dd-mm-yyyy\>
 * `venueAddress`: A string that represents the address of the venue in the format {\<Street Adress>, \<City Name\>, \<Province\>, \<Postal Code\>}
-* `time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}
+* `time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}  
+
+**Responce code 400** responds if there is an error in the request and returns an error message  
+
+**Responce code 500** responds if there is an issue on the server side that caused an error and the request was not handled properly. A corresponding error message is also displayed
 
 
 ## Group Members
