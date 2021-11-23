@@ -17,10 +17,10 @@ List all concerts in Manitoba given time range, city name and participating arti
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| start_date (mm-dd-yyyy) | string | NO | start date of time range |
-| end_date (mm-dd-yyyy) | string | NO | end date of time range |
-| city_name | string | NO | city name to base search on |
-| artist | string | NO | artist participates in concerts |
+| `start_date` (mm-dd-yyyy) | string | NO | start date of time range |
+| `end_date` (mm-dd-yyyy) | string | NO | end date of time range |
+| `city_name` | string | NO | city name to base search on |
+| `artist` | string | NO | artist participates in concerts |
 
 If no parameter is specified in a request, the api will return a respond that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 
