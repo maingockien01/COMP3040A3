@@ -53,7 +53,7 @@ The response is formatted as JSON where the information is displayed in the orde
 * `venueName`: The venue name as a string
 * `date`: A string that represensts the date in the format \<dd-mm-yyyy\>
 * `venueAddress`: A string that represents the address of the venue in the format {\<Street Adress>, \<City Name\>, \<Province\>, \<Postal Code\>}
-* `Time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}
+* `time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}
 
 
 ## Group Members
