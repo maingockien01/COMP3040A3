@@ -38,6 +38,7 @@ Response code: `200`
 
 ```
 {
+    "status": "Success"
     "concerts": [
         {
             "artists": ["Metallica", "Slash"],
