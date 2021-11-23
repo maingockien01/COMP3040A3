@@ -39,7 +39,7 @@ The response is formatted using **JSON**:
             "venueName": "Bell MTS Center",
             "date": "11-21-2021",
             "venueAddress": "223 Carlton St #600, Winnipeg, MB, R3C 0V4",
-            "Time": "6:00pm"
+            "time": "6:00pm"
         }
     ]
 }
@@ -49,11 +49,11 @@ The response is formatted using **JSON**:
 
 The request is formatted as the above example where the parameters must be given followed by "//api/concerts?", the first parameters are start_date and end_date that must be formatted as \<dd-mm-yyyy\>, followed by the city name and artist name.  
 The response is formatted as JSON where the information is displayed in the order:  
-* Artist: The artist name as a string
-* Venue Name: The venue name as a string
-* Date: A string that represensts the date in the format \<dd-mm-yyyy\>
-* Venue Address: A string that represents the address of the venue in the format {\<Street Adress>, \<City Name\>, \<Province\>, \<Postal Code\>}
-* Time: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}
+* `artists`: The artist name as a string
+* `venueName`: The venue name as a string
+* `date`: A string that represensts the date in the format \<dd-mm-yyyy\>
+* `venueAddress`: A string that represents the address of the venue in the format {\<Street Adress>, \<City Name\>, \<Province\>, \<Postal Code\>}
+* `Time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}
 
 
 ## Group Members
