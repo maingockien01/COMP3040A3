@@ -18,23 +18,33 @@ List all concerts in Manitoba given time range, city name and participating arti
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| start_date | string | NO | start date of time range |
-| end_date | string | NO | end date of time range |
+| start_date (mm-dd-yyyy) | string | NO | start date of time range |
+| end_date (mm-dd-yyyy) | string | NO | end date of time range |
 | city_name | string | NO | city name to base search on |
 | artist | string | NO | artist participates in concerts |
 
 If no parameter is specified in a request, the api will return a respond that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 
-## Sample Request
+## Example Request
+The following request samples are provided in **NodeJS**
 ```
-https://api.concertMB.ca/concerts
-https://api.concertMB.ca/concerts?
-https://api.concertMB.ca/concerts?
-
+curl -H "Content-Type:application/json" -X GET "https://api/concerts?start_date=11-20-2021&end_date=11-23-2021&city_name=Winnipeg&artist=Metallica"
 ```
-## Sample Response
-
-The response is formatted using JSON. An example:
+## Example Response
+The response is formatted using **JSON**
+```
+{
+    "concerts": [
+        {
+            "artists": ["Metallica", "Slash"],
+            "venue_name": "Bell MTS Center",
+            "date": "11-21-2021",
+            "venueAddress": "223 Carlton St #600, Winnipeg, MB R3C 0V4",
+            "Time": "6pm"
+        }
+    ]
+}
+```
 
 ## Resources
 
