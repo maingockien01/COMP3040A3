@@ -10,7 +10,9 @@ In the case of invalid input such as a date range prior to the current date, or 
 
 ## Endpoint(s)
 
-`GET /concerts`
+```
+GET /concerts
+```
 
 List all concerts in Manitoba given time range, city name and participating artisits.
 
@@ -32,6 +34,9 @@ curl -H "Content-Type:application/json" -X GET "https://api/concerts?start_date=
 ```
 ## Example Response
 The response is formatted using **JSON**
+
+Response code: `200`
+
 ```
 {
     "concerts": [
@@ -43,6 +48,26 @@ The response is formatted using **JSON**
             "Time": "6pm"
         }
     ]
+}
+```
+
+Response code: `400`
+
+```
+{
+    "status": "Failure",
+    "reason": "BadRequest",
+    "message": "The user issued a faulty request. Please check the parameters and try again"
+}
+```
+
+Response code: `500`
+
+```
+{
+    "status": "Failure"
+    "reason": "InternalServerError",
+    "message": "An unexpected error occurred.",
 }
 ```
 
