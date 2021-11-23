@@ -37,7 +37,7 @@ The response is formatted using **JSON**
     "concerts": [
         {
             "artists": ["Metallica", "Slash"],
-            "venue_name": "Bell MTS Center",
+            "venueName": "Bell MTS Center",
             "date": "11-21-2021",
             "venueAddress": "223 Carlton St #600, Winnipeg, MB R3C 0V4",
             "Time": "6pm"
