@@ -20,7 +20,7 @@ It will list all concerts in Manitoba in a given time range, city name, and part
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| `start_date` | string | NO | start date (mm-dd-yyyy) of time range. |
+| `start_date` | string | NO | start date (mm-dd-yyyy) of time range |
 | `end_date` | string | NO | end date (mm-dd-yyyy) of time range |
 | `city_name` | string | NO | city name to base search on |
 | `artist` | string | NO | artist participates in concerts |
