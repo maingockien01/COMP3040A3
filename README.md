@@ -8,7 +8,7 @@ The response received by the user will contain a list of concerts containing inf
 In the case of invalid input such as a date range prior to the current date, or invalid artist or city names, the user will receive an error specifying the issue. The user may also receive an error in the case that a server-side error occurs.
 
 ## Endpoint(s)
-Our API is simple, and there is only one endpoint. You only have to do a GET request.
+Our API is simple, and there is only one endpoint.
 
 ```
 GET /concerts
