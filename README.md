@@ -27,13 +27,13 @@ It will list all concerts in Manitoba in a given time range, city name, and part
 
 If no parameter is specified in a request, the API will return a response that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 
-## Example Request
+## Sample Request
 This is a sample request for getting concerts information from our API for a given start date, end date, city name, and artist name.
 The following request sample is provided in **curl**:
 ```
 curl -H "Content-Type:application/json" -X GET "https://api.concertmb.org/concerts?start_date=11-20-2021&end_date=11-23-2021&city_name=Winnipeg&artist=Metallica"
 ```
-## Example Response
+## Sample Response
 The response is formatted using **JSON**:
 
 Response code: `200`
