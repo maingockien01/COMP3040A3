@@ -81,7 +81,7 @@ The request is formatted like the above example where the parameters must be giv
 The response is formatted as JSON where the information is displayed in the order:  
 * `artists`: The artist names as a list of strings.
 * `venueName`: The venue name as a string.
-* `date`: A string that represents the date in the format \<dd-mm-yyyy\>.
+* `date`: A string that represents the date in the format \<mm-dd-yyyy\>.
 * `venueAddress`: A string that represents the address of the venue in the format {\<Street Adress>, \<City Name\>, \<Province\>, \<Postal Code\>}.
 * `time`: A string that represents the start time of the concert in the format {\<hh:mm\>\<am/pm\>}.  
 
