@@ -3,9 +3,9 @@
 
 Our API provides the user with information about upcoming concerts in Manitoba. The user can specify a range of parameters such as a date range, the artist name, or the city name, however, all these parameters are optional. Should a user not specify any of the parameters, they will get a list of all concerts in Manitoba for the upcoming year.
 
-The response recieved by the user will contain a list of concerts containing information such as a list of artists that will make an apearance in the concert, the name and address of the venue as well as the date and time of the concert.
+The response received by the user will contain a list of concerts containing information such as a list of artists that will make an appearance in the concert, the name and address of the venue as well as the date and time of the concert.
 
-In the case of invalid input such as a date range prior to the current date, or invalid artist or city names, the user will recieve an error specifying the issue. The user may also recieve an error in the case that a server side error occurs.
+In the case of invalid input such as a date range prior to the current date, or invalid artist or city names, the user will receive an error specifying the issue. The user may also receive an error in the case that a server-side error occurs.
 
 ## Endpoint(s)
 Our API is simple, and there is only one endpoint. You only have to do a GET request.
