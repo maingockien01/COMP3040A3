@@ -25,7 +25,7 @@ It will list all concerts in Manitoba in a given time range, city name, and part
 | `city_name` | string | NO | city name to base search on |
 | `artist` | string | NO | artist participates in concerts |
 
-If no parameter is specified in a request, the api will return a respond that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
+If no parameter is specified in a request, the API will return a response that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 
 ## Example Request
 This is a sample request for getting concerts information from our API for a given start date, end date, city name, and artist name.
