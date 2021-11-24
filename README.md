@@ -32,7 +32,7 @@ The following request sample is provided in **NodeJS**:
 curl -H "Content-Type:application/json" -X GET "https://api/concerts?start_date=11-20-2021&end_date=11-23-2021&city_name=Winnipeg&artist=Metallica"
 ```
 ## Example Response
-The response is formatted using **JSON**
+The response is formatted using **JSON**:
 
 Response code: `200`
 
