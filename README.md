@@ -8,12 +8,13 @@ The response recieved by the user will contain a list of concerts containing inf
 In the case of invalid input such as a date range prior to the current date, or invalid artist or city names, the user will recieve an error specifying the issue. The user may also recieve an error in the case that a server side error occurs.
 
 ## Endpoint(s)
+Our API is simple, and there is only one endpoint. You only have to do a GET request.
 
 ```
 GET /concerts
 ```
 
-List all concerts in Manitoba given time range, city name and participating artisits.
+It will list all concerts in Manitoba in a given time range, city name, and participating artists.
 
 ### Parameters
 
