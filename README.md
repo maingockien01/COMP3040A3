@@ -1,7 +1,7 @@
 # Upcoming Concerts in Manitoba
 ## API Description
 
-Our API provides the user with information about upcoming concerts in Manitoba. The user can specify a range of parameters such as a date range, the artist name, or the city name, however, all these parameters are optional. Should a user not specify any of the parameters, they will get a list of all concerts in Manitoba for the upcoming year.
+Our API provides the user with information about upcoming concerts in Manitoba. The user can specify a range of parameters such as a date range, an artist name, or a city name, however, all these parameters are optional. Should a user not specify any of the parameters, they will get a list of all concerts in Manitoba for the upcoming year.
 
 The response received by the user will contain a list of concerts containing information such as a list of artists that will make an appearance in the concert, the name and address of the venue as well as the date and time of the concert.
 
