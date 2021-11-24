@@ -29,7 +29,7 @@ If no parameter is specified in a request, the API will return a response that l
 
 ## Sample Request
 This is a sample request for getting concerts information from our API for a given start date, end date, city name, and artist name.
-The following request sample is provided in **curl**:
+The following sample request is provided in **curl**:
 ```
 curl -H "Content-Type:application/json" -X GET "https://api.concertmb.org/concerts?start_date=11-20-2021&end_date=11-23-2021&city_name=Winnipeg&artist=Metallica"
 ```
