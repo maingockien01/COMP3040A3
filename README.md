@@ -75,7 +75,7 @@ Response code: `500`
 
 ## Resources
 
-The request is formatted like the above example where the parameters must be given followed by "//api.concertmb.org/concerts?", the first parameter and second parameter are start_date and end_date that must be formatted as \<mm-dd-yyyy\>, followed by the city name and artist name. 
+The request is formatted like the above example where the parameters must be given followed by "//api.concertmb.org/concerts?", the first parameter and second parameter are start date and end date that must be formatted as \<mm-dd-yyyy\>, followed by the city name and artist name. 
 
 **Response code 200** responds to a successful call to the API.   
 The response is formatted as JSON where the information is displayed in the order:  
