@@ -7,6 +7,8 @@ The response received by the user will contain a list of concerts containing inf
 
 In the case of invalid input such as a date range prior to the current date, or invalid artist or city names, the user will receive an error specifying the issue. The user may also receive an error in the case that a server-side error occurs.
 
+In the case of no parameter is specified in the request, the server will return the default respond of all coming up events in 1 year from the current date.
+
 ## Endpoint(s)
 Our API is simple, and there is only one endpoint.
 
@@ -25,7 +27,7 @@ It will list all concerts in Manitoba in a given time range, city name, and part
 | `city_name` | string | NO | city name to base search on |
 | `artist` | string | NO | artist participates in concerts |
 
-If no parameter is specified in a request, the API will return a response that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
+**Default**: If no parameter is specified in a request, the API will return a response that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 
 ## Sample Request
 This is a sample request for getting concerts information from our API for a given start date, end date, city name, and artist name.
