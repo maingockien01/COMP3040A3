@@ -30,6 +30,7 @@ It will list all concerts in Manitoba in a given time range, city name, and part
 **Default**: 
 - If no parameter is specified in a request, the API server will return a response that lists all upcoming concerts in Manitoba in 1 year from the current day as default.
 - If `start_date` is not specified in a request, the API will always assume the `start_date` parameter is current date as default. 
+- If `end_date` is not specified in a request, the API will always assume the `end_date` parameter is 1 year away from the `start_date` or current date if `start_date` is not specified.
 
 **Conditions**: 
 - The `end_date` parameter must be after the `start_date` parameter.
